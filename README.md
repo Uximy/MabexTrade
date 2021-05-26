@@ -1,6 +1,4 @@
 # Mabex-trade
-Mabex trade website layout
-
 
 **ENG**
 wordpress template is called mabex-trade-wordpress,
