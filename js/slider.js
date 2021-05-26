@@ -1,0 +1,29 @@
+$(document).ready(function(){
+    $('.banners').owlCarousel({
+        loop:true,
+        margin:32,
+        nav:false,
+        autoplay:true,
+        autoplayTimeout:4000,
+        autoplaySpeed:1500,
+        responsive:{
+            600:{
+                items:3
+            }
+        }
+    });
+
+    $('.partners').owlCarousel({
+        loop:true,
+        margin:62,
+        nav:false,
+        autoplay:true,
+        autoplayTimeout:4000,
+        autoplaySpeed:1500,
+        responsive:{
+            600:{
+                items:4
+            }
+        }
+    });
+});

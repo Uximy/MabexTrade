@@ -1,0 +1,46 @@
+@media screen and (max-width: 1024px ) {
+    body{
+        min-width: 77.5rem;
+    }
+    .block3_footer{
+        margin-right: 65.2px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .block_banner_apartment img{
+        bottom: 0 !important;
+    }
+    .block_consultation img{
+        bottom: 0 !important;
+    }
+    .block_banner_apartment{
+        align-items: center;
+    }
+    .block_consultation{
+        align-items: center;
+    }
+
+    .block2_footer{
+        margin-right: 0 !important;
+    }
+
+    .block3_footer{
+        margin-right: 0 !important;
+    }
+
+    .block4_footer{
+        margin-left: -110px;
+    }
+
+    .slider_img img{
+        height: 411.859px !important;  
+    }
+
+    .block_consultation_info h2{
+        margin: 0 !important;
+    }
+    .menu_projects{
+        justify-content: space-around !important;
+    }
+}
