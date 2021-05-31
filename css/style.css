@@ -571,7 +571,7 @@ header{
     outline: none;
     width: 180px;
     height: 48px;
-
+    cursor: pointer;
     font-family: 'Exo 2', sans-serif;
     font-style: normal;
     font-weight: bold;
