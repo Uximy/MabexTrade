@@ -268,12 +268,14 @@ header{
     margin-left: 26px;
 }
 
-.line{
+.description::after{
+    content: '';
     background: #FFFFFF;
     width: 112px;
     height: 2px;
     left: 27px;
-    position: relative;
+    bottom: 75px;
+    position: absolute;
 }
 
 .block_mini{
@@ -340,12 +342,13 @@ header{
     margin-left: 26px;
 }
 
-.line_mini{
+.description_mini::after{
+    content: '';
     background: #FFFFFF;
     width: 50px;
     height: 2px;
     left: 27px;
-    position: relative;
+    position: absolute;
     bottom: 10px;
 }
 
