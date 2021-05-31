@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap');
 
+:root{
+    --blue-color: #007BE9;
+    --dark-blue-color: #55597D;
+    --hover-blue-color-button: #045ba9;
+    --dark-text-color: #222222;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -149,14 +156,14 @@ header{
 }
 
 .menu_projects li:hover{
-    color: #007BE9;
-    border-color: #007BE9;
+    color: var(--blue-color);
+    border-color: var(--blue-color);
 }
 
 .btn-watch{
     right: 57px;
     position: relative;
-    border: 2px solid #007BE9;
+    border: 2px solid var(--blue-color);
     width: 286.59px;
     height: 44.6px;
     border-radius: 6px;
@@ -164,7 +171,7 @@ header{
     font-family: 'Exo 2', sans-serif;
     font-weight: 700;
     font-size: 16px;
-    color: #007BE9;
+    color: var(--blue-color);
 }
 
 .block_projects{
@@ -317,7 +324,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #55597D;
+    background: var(--dark-blue-color);
     width: 223px;
     height: 26px;
     font-family: 'Exo 2', sans-serif;
@@ -382,7 +389,7 @@ header{
 }
 
 .info button{
-    background: #007BE9;
+    background: var(--blue-color);
     border-radius: 6px;
     color: #fff;
     width: 279.88px;
@@ -399,6 +406,10 @@ header{
     align-items: center;
     justify-content: center;
     letter-spacing: 0.02em;
+}
+
+.info button:hover{
+    background: var(--hover-blue-color-button);
 }
 
 .skills{
@@ -424,7 +435,7 @@ header{
 
 .column{
     width: 50%;
-    background-color: #007BE9;
+    background-color: var(--blue-color);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -550,7 +561,7 @@ header{
 }
 
 .consultation_inputs button{
-    background: #007BE9;
+    background: var(--blue-color);
     color: #fff;
     display: flex;
     justify-content: center;
@@ -567,6 +578,10 @@ header{
     font-size: 16px;
     line-height: 26px;
     text-transform: uppercase;
+}
+
+.consultation_inputs button:hover{
+    background: var(--hover-blue-color-button);
 }
 
 .offer{
@@ -640,7 +655,7 @@ header{
     display: flex;
     justify-content: center;
 
-    color: #222222;
+    color: var(--dark-text-color);
     margin-bottom: 1.94px;
 }
 
@@ -681,7 +696,7 @@ header{
     font-weight: bold;
     font-size: 70px;
     line-height: 64px;
-    color: #007BE9;
+    color: var(--blue-color);
     margin: 0;
 }
 
@@ -693,7 +708,7 @@ header{
     font-weight: normal;
     font-size: 16px;
     line-height: 21px;
-    color: #222222;
+    color: var(--dark-text-color);
 }
 
 .achievements_text span{
@@ -703,8 +718,7 @@ header{
     font-size: 22px;
     line-height: 26px;
     text-align: right;
-
-    color: #007BE9;
+    color: var(--blue-color);
 }
 
 .achievements_text li{
@@ -790,7 +804,7 @@ header{
 }
 
 .banner_apartment_button{
-    background: #007BE9;
+    background: var(--blue-color);
     color: #fff;
     display: flex;
     justify-content: center;
@@ -807,6 +821,10 @@ header{
     font-size: 16px;
     line-height: 26px;
     text-transform: uppercase;
+}
+
+.banner_apartment_button:hover{
+    background: var(--hover-blue-color-button);
 }
 
 .block_partners{
@@ -827,7 +845,7 @@ header{
     font-weight: bold;
     font-size: 34px;
     line-height: 40px;
-    color: #222222;
+    color: var(--dark-text-color);
     width: 173.35px;
 }
 
