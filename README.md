@@ -16,3 +16,6 @@ move it to the specified path domain_name/wp-content
 
 Если слетят картинки, скопируйте папку uploads
 и переместите его по указанному пути domain_name/wp-content
+
+
+![alt text](https://github.com/Uximy/Mabex-trade/blob/master/img/Placeholder.png)
